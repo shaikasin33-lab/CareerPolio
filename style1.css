@@ -1,0 +1,98 @@
+/* General Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+}
+
+/* Form Styles */
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+
+form:hover {
+  transform: translateY(-5px);
+}
+
+/* Input & Textarea */
+input, textarea {
+  width: 100%;
+  margin: 8px 0 15px 0;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: #664caf;
+  outline: none;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+}
+
+/* Button */
+button {
+  padding: 12px 25px;
+  background: #534caf;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #4546a0;
+  transform: scale(1.05);
+}
+
+/* Portfolio Output Card */
+.portfolio {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.portfolio:hover {
+  transform: translateY(-5px);
+}
+
+/* Portfolio Headings */
+.portfolio h2 {
+  font-size: 28px;
+  color: #4c5caf;
+  margin-bottom: 10px;
+}
+
+.portfolio h3 {
+  font-size: 20px;
+  color: #333;
+  border-bottom: 2px solid blue;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.portfolio ul {
+  list-style-type: square;
+  margin-left: 20px;
+  font-size: 16px;
+}
